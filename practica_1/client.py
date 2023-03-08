@@ -32,11 +32,11 @@ y el resultado lo muestre el cliente y el servidor con un mensaje indicativo de 
 tanto del lado del cliente como del servidor. El programa cliente debe realizar las siguientes 
 verificaciones al leer los 2 registros desde el servidor.
 '''
-client.write_multiple_registers(19, [19, 20])
-print("El alumno Luis Ruiz Moreno ha escrito los valores:",client.read_holding_registers(19, 2))
+#client.write_multiple_registers(19, [19, 20])
+#print("El alumno Luis Ruiz Moreno ha escrito los valores:",client.read_holding_registers(19, 2))
 
-for i in range(19, 21):
-    if client.read_holding_registers(i, 1)[0] % 2 == 0:
-        print("El registro", i, "es par")
-    else:
-        print("El registro", i, "es impar")
+#for i in range(19, 21):
+    #if client.read_holding_registers(i, 1)[0] % 2 == 0:
+        #print("El registro", i, "es par")
+    #else:
+        #print("El registro", i, "es impar")
