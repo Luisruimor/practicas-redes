@@ -31,6 +31,6 @@
 
 [**SOLUCION**](client_ejercicio5.py)
 
-Ejercicio 6: Crear un segundo programa cliente MODBUS-TCP/IP que escriba sobre el registro 19 del servidor el valor 66. Nota: debe mantenerse en línea el cliente desarrollado en el Apartado. Para no entrar en conflicto debe crear un archivo cliente con nombre diferente, por ejemplo, al archivo cliente anterior, colóquele un _1 al final. **Valor 1 punto**
+**Ejercicio 6:** Crear un segundo programa cliente MODBUS-TCP/IP que escriba sobre el registro 19 del servidor el valor 66. Nota: debe mantenerse en línea el cliente desarrollado en el Apartado. Para no entrar en conflicto debe crear un archivo cliente con nombre diferente, por ejemplo, al archivo cliente anterior, colóquele un _1 al final. **Valor 1 punto**
 
 [**SOLUCION**](client_ejercicio6.py)
